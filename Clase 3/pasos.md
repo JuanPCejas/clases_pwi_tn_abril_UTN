@@ -26,3 +26,6 @@
   git commit -m 'comentario'
   
   git push
+
+
+  # para  clonar un repo, desde github ir a code y copiar https -- Luego desde visual ingresar git clone y pegar https.
