@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Form</h1>
+    <form>
+        <div>
+        <label for="username">Ingresa tu nombre de usuario</label>
+        <input type="text" name="username" id="username" placeholder="John_doe_6" required maxlength="30"> 
+        </div>
+        <div>
+            <label for="email">Ingrese su email</label>
+        <input type="text" name="email" id="email">
+        </div>
+        <div>
+        <label for="password">Ingrese su contraseña</label>
+        <input type="text" name="password" id="password">
+        </div>
+        <div>
+            <label for="pais">Selecciona un pais</label>
+            <select name="pais" id="pais">
+                <option value="FALSE"selected>No Seleccionado</option>
+                <option value="AR">Argentina</option>
+                <option value="FR">Francia</option>
+        </div>
+        <div>
+            <label for="pais-1">Selecciona el pais
+                <span>Argentina</span><input type="radio" name="pais-1" id="ar">
+                <span>Francia</span><input type="radio" name="pais-1" id="fr">
+            </label>
+        </div>
+        <div>
+            <label for="mensaje">Ingrese su mensaje:</label>
+            <textarea name="mensaje" id="mensaje" cols="30" rows="10" placeholder="Hola a todos"></textarea>
+            <input type="submit" value="Confirmar">
+            <!-- Input submit es para generar el boton de enviar, si no cargo el valor lo toma del idioma de la pc -->
+            <button type="submit">Enviar</button>
+        </div>
+    </form>
+    <!-- Dentro de la etiqueta FORM pongo lo que quiero que contenga mi formulario-- la etiqueta Label sirve para ingresar un texto previo. El atributo For es para remarcar el recuadro por ejemplo para no videntes -->
+    <!-- El atributo placeholder es para completar el recuadro con un ejemplo del formato -->
+    <!-- El atributo for siempre tiene que estar relacionado con el ID -->
+        
+</body>
+</html>
