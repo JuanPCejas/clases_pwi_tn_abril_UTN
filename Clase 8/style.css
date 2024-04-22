@@ -1,0 +1,17 @@
+*{
+    box-sizing: border-box; /* Con esto hago que la caja sea de la dimension que yo especifico*/
+    margin: 0;/* Con esto logro controlar yo los margenes y no los que estan por defecto. */
+    padding: 0;/* Con esto logro que no haya espacios entre el borde de la pagina y los UL o LI */
+}
+body{
+    background-color: blue;
+}
+
+.caja{
+width: 200px;
+height: 200px;
+background-color: black;
+border-radius: 10px;
+border: 3px solid rgb(255, 47, 47);/* Me va a quedar una caja de 206X206 por que me suma la dimension de la caja mas el border */
+padding-left: 20px;
+}
